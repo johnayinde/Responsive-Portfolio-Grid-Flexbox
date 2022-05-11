@@ -4,14 +4,17 @@
 	padding: 0;
 	box-sizing: border-box;
 }
+html{
+	scroll-behavior: smooth;
+}
 body {
 	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .navbar {
-	height: 80px;
+	/* height: 80px; */
 	background-color: #333;
-	/* position: fixed; */
+	position: sticky;
 	top: 0;
 	width: 100%;
 }
@@ -81,7 +84,7 @@ ul {
 	color: #fff;
 	flex-direction: column;
 	background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-		url("/images/banner-01.jpg");
+		url("./images/banner-01.jpg");
 	background-position: top;
 	background-size: cover;
 	background-repeat: no-repeat;
